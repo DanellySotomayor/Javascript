@@ -2,9 +2,9 @@
 function iniciar(){
 
     var nombreUsuario = prompt("Ingresa tu nombre:");
-    saludarUsario.innerHTML = "😊 Bienvenid@ " + nombreUsuario + " 😊" ;
+    saludarUsuario.innerHTML = "😊 Bienvenid@ " + nombreUsuario + " 😊" ;
     
-    var saludarUsario = document.getElementById('bienvenida'); 
+    var saludarUsuario = document.getElementById('bienvenida'); 
     var mostrarResultados = document.getElementById('contenedorPrincipal');
     var respuestasCorrectas = document.getElementById('respuestasCorrectas');
     var respuestasIncorrectas= document.getElementById('respuestasIncorrectas');
